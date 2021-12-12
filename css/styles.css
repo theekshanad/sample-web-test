@@ -1,0 +1,111 @@
+ body{
+     overflow: hidden;
+ }
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: yellow;
+}
+.sereen1{
+    width: 100%;
+    height: 100vh;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.img-wap{
+    width: 100%;
+    height: 100%;
+    background: BLACK;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-wap img{
+    border-radius: 535px;
+    width: 535px;
+    height: 535px;
+}
+.sereen2{
+    width: 100%;
+    height: 100vh;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+} 
+.sereen3{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.sereen4{
+    width: 100%;
+    height: 300vh;
+    background: pink;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+
+  .bg {
+    background-color: #000000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+  }
+  .bg:after {
+    content: "";
+    width: 200%;
+    height: 0;
+    padding-top: 200%;
+    border-radius: 100%;
+    background: #f7f7f7;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .vid-bg{
+    width: 200%;
+    height: 0;
+    padding-top: 200%;
+    border-radius: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+    overflow: hidden;
+  }
+
+  .vid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 50%;
+    background: blue;
+  }
